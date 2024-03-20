@@ -30,7 +30,7 @@ ECMA标准语法：
 ### 2.1 JS语法
 #### 2.1.1 JS的引入方法
 1.外部js引入
-2.<script>标签引入
+2.script标签引入
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -57,6 +57,29 @@ ECMA标准语法：
 </html>
 ```
 #### 2.1.2 JS的变量
+1.undefined
+```
+var x
+console.log(x)
+```
+2.变量赋值
+```
+var x
+x = 100
+console.log(x)
+```
+3.声明并赋值
+```
+var y = 200;
+console.log(y)
+```
+4.一次性可以声明多个变量
+```
+var name="yuan", age=20, job="lecturer";
+var a, b, c=3, d, e = 5;
+console.log(a,b,d) --》undefined undefined undefined
+console.log(c,e) ---》3 5
+```
 #### 2.1.3 JS的数据类型
 #### 2.1.4 JS的运算符
 
