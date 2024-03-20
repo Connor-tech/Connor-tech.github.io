@@ -29,6 +29,33 @@ ECMA标准语法：
 ```
 ### 2.1 JS语法
 #### 2.1.1 JS的引入方法
+```
+1.外部js引入
+2.<script>标签引入
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        h3 {
+            color: rebeccapurple;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+<h3>hello JavaScript!</h3>
+<script>
+   dom = document.getElementsByTagName("h3")[0]
+    dom.onclick = function () {
+        alert(123)
+    }
+</script>
+<!--<script src="index.js"></script>-->
+</body>
+</html>
+```
 #### 2.1.2 JS的变量
 #### 2.1.3 JS的数据类型
 #### 2.1.4 JS的运算符
