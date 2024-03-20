@@ -29,9 +29,9 @@ ECMA标准语法：
 ```
 ### 2.1 JS语法
 #### 2.1.1 JS的引入方法
-```
 1.外部js引入
 2.<script>标签引入
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
